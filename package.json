@@ -39,7 +39,7 @@
   "scripts": {
     "example": "yarn workspace react-native-rnt-local-strg-tst-example",
     "test": "jest",
-    "typecheck": "tsc",
+    "typecheck": "yarn tsx --transpileOnly",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
     "prepare": "bob build",
@@ -83,7 +83,7 @@
     "react-native-builder-bob": "^0.36.0",
     "release-it": "^17.10.0",
     "turbo": "^1.10.7",
-    "typescript": "^5.2.2"
+    "typescript": "^5.0"
   },
   "resolutions": {
     "@types/react": "^18.2.44"
@@ -183,7 +183,7 @@
     ]
   },
   "codegenConfig": {
-    "name": "RNRntLocalStrgTstSpec",
+    "name": "NativeLocalStorageSpec",
     "type": "modules",
     "jsSrcsDir": "src",
     "outputDir": {
@@ -191,7 +191,7 @@
       "android": "android/generated"
     },
     "android": {
-      "javaPackageName": "com.rntlocalstrgtst"
+      "javaPackageName": "com.nativelocalstorage"
     },
     "includesGeneratedCode": true
   },

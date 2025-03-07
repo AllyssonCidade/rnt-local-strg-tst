@@ -10,7 +10,6 @@ npm install react-native-rnt-local-strg-tst
 
 ## Usage
 
-
 ```js
 import { multiply } from 'react-native-rnt-local-strg-tst';
 
@@ -18,7 +17,6 @@ import { multiply } from 'react-native-rnt-local-strg-tst';
 
 const result = multiply(3, 7);
 ```
-
 
 ## Contributing
 
