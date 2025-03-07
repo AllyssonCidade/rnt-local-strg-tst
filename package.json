@@ -1,6 +1,6 @@
 {
   "name": "react-native-rnt-local-strg-tst",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Modulo Local Storage para React-Native, baseado na documentação",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
